@@ -1,0 +1,87 @@
+a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+.navbar{
+    display: flex;
+    gap: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+.active{
+    border-bottom-color: blue;
+}
+.navbar a:hover{
+    color: blue;
+}
+a:hover{
+    border-bottom: none;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+header{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    font-size: 20px;
+}
+section{
+    padding: 30px;
+}
+h2{
+    margin-bottom: 20px;
+}
+h3{
+    margin: 15px 0;
+}
+p{
+    margin: 10px 0;
+    line-height: 1.6;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: darkgreen;
+}
+input,textarea{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+}
